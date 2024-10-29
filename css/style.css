@@ -3,14 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5E5E5;
 }
-
 .header {
     width: 100%;
     position: relative;
@@ -78,7 +77,6 @@ html, body {
     position: relative;
     overflow: hidden;
 }
-
 .header__text {
     width: 60%;
     display: flex;
@@ -128,11 +126,9 @@ html, body {
     position: relative;
     overflow: hidden;
 }
-
 .main {
     width: 100%;
 }
-
 .destinations {
     width: 100%;
     display: flex;
@@ -175,7 +171,6 @@ html, body {
     position: relative;
     overflow: hidden;
 }
-
 .slider {
     width: 80%;
     display: flex;
@@ -197,7 +192,7 @@ html, body {
     left: 0;
     z-index: 15;
     overflow: hidden;
-
+    cursor: pointer;
     -webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
@@ -208,7 +203,6 @@ html, body {
     width: 30%;
     z-index: 15;
 }
-
 .slider__image {
     width: 18rem;
 }
@@ -216,7 +210,6 @@ html, body {
     transform: scale(1.2);
     margin: 3rem;
 }
-
 .customers {
     width: 100%;
     display: flex;
@@ -260,6 +253,153 @@ html, body {
     margin-top: 2rem;
     width: 23rem;
 }
-
-
-
+.prepare { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 12rem;
+}
+.prepare__body {
+    width: calc(100% - 14rem);
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    border-radius: 4rem;
+}
+.prepare__title {
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+.prepare__subtitle {
+    font-size: 2.1rem;
+    color: rgba(0, 0, 0, 0.35);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.prepare__button {
+    width: 14rem;
+    height: 5rem;
+    background: linear-gradient(to right, #FF7B4E, #FF584E);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 1.6rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.05rem;
+    position: relative;
+    overflow: hidden;
+}
+.subscribe {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12rem;   
+}
+.subscribe__title {
+    font-size: 4.5rem;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+.subscribe__form {
+    width: 55%;
+    height: 8rem;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.subscribe__input {
+    width: 50%;
+    height: 80%;
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 1.3rem;
+    letter-spacing: 600;
+    border: none;
+}
+.subscribe__button {
+    width: 37%;
+    height: 80%;
+    background: linear-gradient(to right, #FF7B4E, #FF584E);
+    border-radius: 2rem;
+    margin-right: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.05rem;
+    position: relative;
+    overflow: hidden;
+}
+.footer {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.footer__logo {
+    color: #FF584E;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.footer__links {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__links > a {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+.footer__auth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+.footer__singup {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+.footer__login {
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to right, #FF7B4E, #FF584E);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 3rem;
+    margin-left: 4rem;
+    border-radius: 2rem;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
