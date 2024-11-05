@@ -37,24 +37,3 @@ function functionNextSlide() {
     slide2.src = slides[linkSlide2]
     slide3.src = slides[linkSlide3]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
